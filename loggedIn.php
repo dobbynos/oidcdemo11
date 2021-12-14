@@ -251,7 +251,7 @@ $json = json_decode($result2, true);*/
 /* THIS NOW RETURNS THE ACCESS TOKEN TO THE USER_INFO ENDPOINT TO GET THE USER'S INFO
  *********************************************************************************** */
 </script>
-<br /><br /><a href="OpenID+Provider+Setup#OpenIDProviderSetup-LiveDemo" target="_blank" class="gigyaLink">Documentation and Code</a><br /><br />
+<br /><br /><a href="http://www.cdcportal.com.s3-website.ap-south-1.amazonaws.com/" target="_blank" class="gigyaLink">CDC Portal</a><br /><br />
 </div><!-- /main_wrapper -->
 </body>
 </html>
