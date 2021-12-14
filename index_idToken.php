@@ -19,7 +19,7 @@
 <!-- includes profile scope -->
 <p></p>
 <div class="" id="loginBtnDiv">
-<button class="rpBtn" id="loginBtn" />Login via Auth Code</button>
+<button class="rpBtn" id="loginBtn" />Login via ID Token</button>
 </div>
 <br />
 <script>
