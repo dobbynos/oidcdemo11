@@ -223,7 +223,7 @@ $json = json_decode($result2, true);*/
 	var clientID = "3h393c_I3m9LaVRo4Z_uldLS";
 	var clientSecret="1zg4Zopw23UHcTGXnfkgIAZLJ4AtkWbyG2BdfWorCHt21Th7Xzr6_hNYRn7d452dQRBu3tkFK5p37f6tQFNhRw";
 	var code = '<?php echo $code ?>';
-	var url = "https://fidm.us1.gigya.com/oidc/op/v1.0/3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh/token?grant_type=authorization_code&code="+encodeURIComponent(code)+"&redirect_uri="+encodeURIComponent('https://localhost:8443/JavaBridge/loggedIn.php');
+	var url = "https://fidm.us1.gigya.com/oidc/op/v1.0/3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh/token?grant_type=authorization_code&code="+encodeURIComponent(code)+"&redirect_uri="+encodeURIComponent('https://secure-lowlands-67656.herokuapp.com/loggedIn.php');
 	
 	//?grant_type=authorization_code?code="+encodeURIComponent(code)+"?redirect_uri="+encodeURIComponent('https://localhost:8443/JavaBridge/loggedIn.php');
 	console.log("URL",url);
