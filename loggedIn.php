@@ -218,10 +218,10 @@ $json = json_decode($result2, true);*/
 		failure: function(res){console.log(res);}
 	});*/
 	const request = async () => {
-	var clientID = "3h393c_I3m9LaVRo4Z_uldLS";
-	var clientSecret="1zg4Zopw23UHcTGXnfkgIAZLJ4AtkWbyG2BdfWorCHt21Th7Xzr6_hNYRn7d452dQRBu3tkFK5p37f6tQFNhRw";
+	var clientID = "ICOCVEEUQKvE7TwfFjkRjAFA";
+	var clientSecret="QnCbekyEzgNHhfYGFxMwfNcTLJfUnPCsvNIrTfAv8oSOGqLEx7wkCF65AVjwanwgahuKYvbhdVK7K2fyEh_Awg";
 	var code = '<?php echo $code ?>';
-	var url = "https://fidm.us1.gigya.com/oidc/op/v1.0/3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh/token?grant_type=authorization_code&code="+encodeURIComponent(code)+"&redirect_uri="+encodeURIComponent('https://secure-lowlands-67656.herokuapp.com/loggedIn.php');
+	var url = "https://fidm.us1.gigya.com/oidc/op/v1.0/4_pt4PEpU8zX3VqxJrc0C0IA/token?grant_type=authorization_code&code="+encodeURIComponent(code)+"&redirect_uri="+encodeURIComponent('https://secure-lowlands-67656.herokuapp.com/loggedIn.php');
 	
 	//?grant_type=authorization_code?code="+encodeURIComponent(code)+"?redirect_uri="+encodeURIComponent('https://localhost:8443/JavaBridge/loggedIn.php');
 	console.log("URL",url);
@@ -233,7 +233,7 @@ $json = json_decode($result2, true);*/
 				  const json = await response.json();
     console.log(json);
 	document.getElementById('qrystrJWT4').value = json.access_token;
-	var nextUrl = "https://fidm.us1.gigya.com/oidc/op/v1.0/3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh/userinfo";
+	var nextUrl = "https://fidm.us1.gigya.com/oidc/op/v1.0/4_pt4PEpU8zX3VqxJrc0C0IA/userinfo";
 	var bearAccessToken="Bearer " + json.access_token;
 				const accessResponse = await fetch(nextUrl, {
 					method: 'POST',

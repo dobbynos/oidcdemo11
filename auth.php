@@ -24,7 +24,7 @@
 <br />
 <script>
 var newNonce=Date.now();
-var authorizeEndpointLink="https://fidm.us1.gigya.com/oidc/op/v1.0/3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh/authorize?client_id=3h393c_I3m9LaVRo4Z_uldLS&response_type=code&redirect_uri=https://secure-lowlands-67656.herokuapp.com/loggedIn.php&scope=openid%20profile%20data&nonce=" + newNonce;
+var authorizeEndpointLink="https://fidm.us1.gigya.com/oidc/op/v1.0/4_pt4PEpU8zX3VqxJrc0C0IA/authorize?client_id=ICOCVEEUQKvE7TwfFjkRjAFA&response_type=code&redirect_uri=https://secure-lowlands-67656.herokuapp.com/loggedIn.php&scope=openid%20profile%20data&nonce=" + newNonce;
 $(document).on("click", "#loginBtn", function() {
 window.location=authorizeEndpointLink;
 });

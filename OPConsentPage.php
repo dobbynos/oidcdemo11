@@ -9,7 +9,7 @@ include_once('GSSDK.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Open ID Connect Consent Page</title>
-    <script type="text/javascript" src="https://cdns.gigya.com/js/gigya.js?apiKey=3_PLBGGaOwZ-Dhle77IAmOg_a11GS9ueMpJu2cKvxkwHk7o6UYm-a42oRdcY3P5Lnh"></script>
+    <script type="text/javascript" src="https://cdns.gigya.com/js/gigya.js?apiKey=4_pt4PEpU8zX3VqxJrc0C0IA"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     
